@@ -32,7 +32,6 @@ permissions:
   contents: read
   
 jobs:
-jobs:
   format:
     name: Format check
     runs-on: [self-hosted, linux, x64, icx, debian]
